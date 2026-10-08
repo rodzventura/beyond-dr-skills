@@ -1,0 +1,164 @@
+{
+  "$comment": "Tokens da marca Beyond (beyond co.). Fonte: Figma [Beyond | DR 2026] Guide, status Concluído. null = não definido; não inferir. _origem/_nota marcam o que não vem do Figma.",
+  "meta": {
+    "marca": "Beyond",
+    "versao": "0.2.0",
+    "status": "parcial",
+    "figma": {
+      "file_key": "tgkSKkqoyGphOVFNLuCfLK",
+      "nome": "[Beyond | DR 2026] Guide",
+      "paginas": {
+        "style_guide": "1:22",
+        "apresentacao": "80:24"
+      }
+    },
+    "design_system": {
+      "versao": "1.1.0",
+      "arquivo": "../claude-code/skills/dr-slides/design-system.css"
+    }
+  },
+  "cor": {
+    "_nota": "Nomes iguais aos estilos de cor do Figma. Roxo e lilás são a cor da marca; rosa, laranja e verde são apoio.",
+    "purple": {
+      "100": "#FCFAFF",
+      "200": "#F6EFFF",
+      "300": "#F0E9FF",
+      "400": "#CBB7F7",
+      "500": "#A880FF",
+      "600": "#834AFF",
+      "700": "#6937D7",
+      "800": "#6334C9",
+      "900": "#3B1099",
+      "1000": "#311371",
+      "1050": "#1A0743"
+    },
+    "pink": {
+      "100": "#FEF8FF",
+      "200": "#DB9BE8",
+      "300": "#C418E8",
+      "400": "#600C72"
+    },
+    "orange": {
+      "100": "#FFFBF7",
+      "200": "#FFE7D0",
+      "300": "#FF8C22",
+      "400": "#2F1B09"
+    },
+    "green": {
+      "100": "#FDFFFC",
+      "200": "#E0FFD2",
+      "300": "#75DB42",
+      "400": "#163A0C"
+    },
+    "neutral": {
+      "100": "#FFFFFF",
+      "200": "#E6E6E6",
+      "300": "#CFCFCF",
+      "400": "#B5B5B5",
+      "500": "#696969",
+      "600": "#000000"
+    },
+    "gym_rats": {
+      "red": "#FF0004",
+      "yellow": "#FDC00E",
+      "dark": "#000000"
+    },
+    "logo": {
+      "tinta": "#240E53",
+      "ponto": "#FF8C22",
+      "_origem": "cor aplicada nos vetores do logotipo no Figma (nós 116:17 e 116:22); não é estilo de cor"
+    },
+    "familias_de_bloco": {
+      "_nota": "Cada bloco da DR usa uma família (data-secao). A estrutura da edição é livre; a cor é do bloco, não do assunto.",
+      "roxo": {
+        "forte": "purple.900",
+        "viva": "purple.600",
+        "clara": "purple.400",
+        "fundo": "purple.300"
+      },
+      "verde": {
+        "forte": "green.400",
+        "viva": "green.300",
+        "clara": "green.200",
+        "fundo": "green.100"
+      },
+      "laranja": {
+        "forte": "orange.400",
+        "viva": "orange.300",
+        "clara": "orange.200",
+        "fundo": "orange.100"
+      },
+      "rosa": {
+        "forte": "pink.400",
+        "viva": "pink.300",
+        "clara": "pink.200",
+        "fundo": "pink.100"
+      },
+      "nomes_antigos": {
+        "institucional": "roxo",
+        "receita": "verde",
+        "pessoas": "laranja",
+        "cerimonia": "rosa"
+      }
+    }
+  },
+  "tipografia": {
+    "_nota": "Somente estas duas famílias. Nenhuma outra fonte entra em material da Beyond/DR.",
+    "familias": {
+      "texto": {
+        "nome": "Rethink Sans",
+        "pesos": [
+          400,
+          500,
+          600,
+          700,
+          800
+        ],
+        "licenca": "OFL",
+        "arquivos": "../claude-code/skills/dr-slides/assets/fontes/rethinksans-*.woff2"
+      },
+      "display": {
+        "nome": "Sofia Sans Extra Condensed",
+        "pesos": [
+          600,
+          700,
+          800,
+          900
+        ],
+        "licenca": "OFL",
+        "arquivos": "../claude-code/skills/dr-slides/assets/fontes/sofiasansextracondensed-*.woff2",
+        "uso": "títulos de impacto em caixa alta (capa, espera, aberturas)"
+      }
+    },
+    "escala": null
+  },
+  "contorno": {
+    "largura_px": 1.8,
+    "cor": "#000000",
+    "_nota": "Contorno das formas concêntricas, cards e caixas. Decisão do Rodolfo (08/out/2026); no Figma os padrões usam 3,5–5px."
+  },
+  "efeito": {
+    "sombra": {
+      "tipo": "drop-shadow",
+      "x": 0,
+      "y": 11.83,
+      "blur": 23.67,
+      "cor": "rgba(0,0,0,.5)",
+      "_origem": "estilo de efeito 'Sombra' do Figma"
+    }
+  },
+  "formas": {
+    "_nota": "Padrões concêntricos do style guide (página 1:22): estrela de 4 pontas (20:511), quadrado pinçado (20:552), círculos (20:650), octógono do selo (20:760). Camadas em tons de roxo com contorno preto.",
+    "padroes": [
+      "estrela",
+      "pincado",
+      "circulo",
+      "octogono"
+    ]
+  },
+  "logotipo": {
+    "_nota": "Logos oficiais ainda serão enviados. Os SVGs em dr-slides/assets/logos são provisórios, extraídos do Figma.",
+    "wordmark": "../claude-code/skills/dr-slides/assets/logos/beyond-co.svg",
+    "aba_be": "../claude-code/skills/dr-slides/assets/logos/beyond-be-aba.svg"
+  }
+}

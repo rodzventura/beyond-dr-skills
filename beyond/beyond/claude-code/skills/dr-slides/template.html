@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="dr-design-system" content="/*DR:VERSAO*/">
+<title>/*DR:TITULO*/</title>
+<style>
+/*DR:FONTES*/
+</style>
+<style>
+/*DR:CSS*/
+/* ---------- casca do deck ---------- */
+html,body{margin:0;height:100%;background:#0b0618;overflow:hidden}
+#fit{position:absolute;left:50%;top:50%;width:1920px;height:1080px;transform-origin:50% 50%}
+#palco>section.dr{display:none}
+#palco>section.dr.on{display:block}
+#pg{position:fixed;right:16px;bottom:12px;font:600 13px 'Rethink Sans',sans-serif;color:rgba(255,255,255,.55);pointer-events:none;z-index:9}
+#notas{display:none;position:fixed;left:0;right:0;bottom:0;max-height:32vh;overflow:auto;background:rgba(11,6,24,.94);color:#fff;font:500 18px/1.5 'Rethink Sans',sans-serif;padding:18px 28px 36px;z-index:8}
+body.com-notas #notas{display:block}
+body.geral{overflow:auto}
+body.geral #fit{position:static;transform:none!important;width:auto;height:auto;padding:32px 40px 80px}
+body.geral #palco{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+body.geral #palco>section.dr{display:block;position:relative;zoom:var(--kg);cursor:zoom-in;border-radius:12px}
+@page{size:1920px 1080px;margin:0}
+@media print{html,body{overflow:visible;background:none;height:auto}#fit{position:static;transform:none!important}#palco>section.dr{display:block!important;position:relative;break-after:page}#pg,#notas{display:none!important}}
+</style>
+</head>
+<body data-rodape="/*DR:RODAPE*/">
+<div id="fit"><div id="palco">
+/*DR:SLIDES*/
+</div></div>
+<div id="pg"></div>
+<div id="notas"></div>
+<template id="tpl-selo">/*DR:SELO*/</template>
+<template id="tpl-co">/*DR:LOGO*/</template>
+<template id="tpl-aba">/*DR:ABA*/</template>
+<script type="application/json" id="dr-imagens">/*DR:IMAGENS*/</script>
+<script>
+/*DR:MOTOR*/
+</script>
+</body>
+</html>

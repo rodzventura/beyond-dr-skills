@@ -1,0 +1,8 @@
+{
+  "_sobre": "Modelo. Os IDs reais NÃO ficam no repositório (ele é público): vão no campo de instruções do agente na plataforma. Este arquivo só documenta o que as instruções precisam informar.",
+  "pasta_raiz_dr": "<ID ou link da pasta DR no Drive>",
+  "pasta_do_ano": { "2026": "<ID opcional>" },
+  "pastas_de_edicao": { "Q1": "<ID opcional>", "Q3": "<ID opcional>" },
+  "estrutura_da_edicao": ["material/<bloco>/", "partes/<bloco>/v<N>/", "final/v<N>/"],
+  "regras": { "sobrescrever": false, "apagar": false, "confirmar_antes_de_enviar": true }
+}
